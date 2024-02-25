@@ -64,5 +64,10 @@
         <argument
             android:name="user"
             app:argType="com.mosamir.gdscs3.User" />
+        <action
+            android:id="@+id/action_coursesFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/coursesFragment"
+            app:popUpToInclusive="true" />
     </fragment>
 </navigation>
